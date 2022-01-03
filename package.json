@@ -1,7 +1,7 @@
 {
   "name": "first-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "this is the nodejs project clone from mosh hamedani tutorials",
   "main": "app.js",
   "dependencies": {
     "nodemon": "^2.0.15",
@@ -15,5 +15,13 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahwaseem775/nodeJsProject.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shahwaseem775/nodeJsProject/issues"
+  },
+  "homepage": "https://github.com/shahwaseem775/nodeJsProject#readme"
 }
