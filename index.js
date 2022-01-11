@@ -35,6 +35,7 @@ app.get('/api/courses',(req,res)=>{
 });
 
 app.post('/api/courses',(req,res)=>{
+    
  const {error} = validateCourse(req.body)
     if(error) return res.status(404).send(error.details[0].message);
     const data =  courses[courses.length - 1]
