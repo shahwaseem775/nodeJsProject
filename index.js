@@ -26,6 +26,7 @@ const courses = [
 ];
 app.get('/',(req,res)=>{
     res.render('index',{title : "My express App",message : 'hello world'})
+    
 });
 
 app.get('/api/courses',(req,res)=>{
