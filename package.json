@@ -1,27 +1,22 @@
 {
-  "name": "first-app",
+  "name": "mongo-demo",
   "version": "1.0.0",
-  "description": "this is the nodejs project clone from mosh hamedani tutorials",
-  "main": "app.js",
+  "description": "",
+  "main": "index.js",
   "dependencies": {
-    "nodemon": "^2.0.15",
-    "uuid": "^8.3.2"
+    "config": "^3.3.6",
+    "express": "^4.17.2",
+    "helmet": "^5.0.1",
+    "joi": "^13.0.2",
+    "mongoose": "^6.1.5",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.2"
   },
-  "devDependencies": {
-    "eslint": "^8.6.0"
-  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/shahwaseem775/nodeJsProject.git"
-  },
-  "bugs": {
-    "url": "https://github.com/shahwaseem775/nodeJsProject/issues"
-  },
-  "homepage": "https://github.com/shahwaseem775/nodeJsProject#readme"
+  "license": "ISC"
 }
