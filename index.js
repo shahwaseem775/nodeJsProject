@@ -22,11 +22,12 @@ if (app.get('env')=== 'development') app.use(morgan('tiny')) ,console.log("morga
 const courses = [
     {id: 1, name: "course1"},
     {id: 2, name: "course2"},
+    
     {id: 3, name: "course3"},
 ];
 app.get('/',(req,res)=>{
     res.render('index',{title : "My express App",message : 'hello world'})
-    
+
 });
 
 app.get('/api/courses',(req,res)=>{
